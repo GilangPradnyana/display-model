@@ -33,7 +33,7 @@ header h1{
 
 /* Inline  */
 .display-inline {
-    height: 250px;
+    height: 300px;
     width: 300px;
     border: 1px solid;
     background-color: #1F2544;
@@ -53,5 +53,32 @@ header h1{
     padding: 0px 20px;
 }
 
-/*  */
+/* BLOCK */
+.display-block{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    background-color: #1F2544;
+    border-radius: 15px;
+} 
+.display-block h2{
+    font-family: 'Montaga';
+    color: #FFF7FC;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.display-block p {
+    color: #FFF7FC;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px 20px;
+}
+.display-block span {
+    display: block;
+}
+
+
+
+
 
